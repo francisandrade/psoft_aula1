@@ -32,4 +32,13 @@ public class Produto {
     public double getPreco() {
         return preco;
     }
+
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "nome='" + nome + '\'' +
+                ", fabricante='" + fabricante + '\'' +
+                ", preco=" + preco +
+                '}';
+    }
 }

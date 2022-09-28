@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("teste");
+        Produto p = new Produto("bike", "Caloi", 150.00);
+        System.out.println(p.toString());
     }
 }
