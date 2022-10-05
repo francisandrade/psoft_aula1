@@ -18,8 +18,7 @@ public class ProdutoRepository {
         return produtos.values();
     }
 
-    public String addProduto(Produto prod) {
+    public void addProduto(Produto prod) {
         this.produtos.put(prod.getNome(), prod);
-        return(prod.getNome());
     }
 }
