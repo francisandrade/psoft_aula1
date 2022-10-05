@@ -1,4 +1,4 @@
-import java.util.Date;
+package models;
 
 public class Lote {
     private Produto prod;
@@ -25,7 +25,7 @@ public class Lote {
 
     @Override
     public String toString() {
-        return "Lote{" +
+        return "models.Lote{" +
                 "prod=" + prod +
                 ", qtd=" + qtd +
                 ", dataValidade='" + dataValidade + '\'' +
